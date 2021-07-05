@@ -20,6 +20,10 @@ h1{
 }
 .top-section1{
     display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+
 }
 
 .half-witdh{
@@ -28,16 +32,15 @@ h1{
     padding: 3%;
     margin-left: 5%;
     margin-bottom: 5%;
+    
 }
 .right-top img{
-    width:80%;
+    width:100%;
     float: right;
 }
 
 .lefttop{
-background-image: url(images/top-banner.png);
-background-repeat: no-repeat;
-padding: 5%;
+
 }
 
 .lefttop a{
@@ -53,15 +56,16 @@ padding: 5%;
 
     display: flex;
     /* margin-top: 50px; */
+    padding: 50px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .left-middle img{
-    width: 80%;
+    width: 100%;
 }
 .middle-right{
-padding: 50px;
-background-image: url(images/dream-bg.png);
-background-repeat: no-repeat;
-background-position: right;
+   
 }
 
 .middle-right a{
@@ -75,10 +79,10 @@ background-position: right;
 
 .full-dev-baby-dev{
 display: flex;
-/* margin-bottom: 10px; */
-background-image: url(images/exp-bg.png);
-background-repeat: no-repeat;
-background-position: left;
+    /* margin-bottom: 10px; */
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 
 }
 .full-stack{
